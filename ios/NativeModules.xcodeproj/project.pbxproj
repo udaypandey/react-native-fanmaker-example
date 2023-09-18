@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* NativeModulesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NativeModulesTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-NativeModules.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-NativeModules.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-NativeModules-NativeModulesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-NativeModules-NativeModulesTests.a */; };
+		782A48392AB8B19F00236F60 /* HelloModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48372AB8B19F00236F60 /* HelloModule.swift */; };
+		782A483B2AB8B1CD00236F60 /* HelloModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 782A483A2AB8B1CD00236F60 /* HelloModule.m */; };
+		782A483F2AB8CB6C00236F60 /* FanMakerLocationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A483E2AB8CB6C00236F60 /* FanMakerLocationModule.swift */; };
+		782A48712AB8CD4300236F60 /* FanMakerSDKBeaconsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48432AB8CD4300236F60 /* FanMakerSDKBeaconsManager.swift */; };
+		782A48722AB8CD4300236F60 /* FanMakerSDKLocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48442AB8CD4300236F60 /* FanMakerSDKLocationDelegate.swift */; };
+		782A48732AB8CD4300236F60 /* fanmaker-sdk-loading-17.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48462AB8CD4300236F60 /* fanmaker-sdk-loading-17.png */; };
+		782A48742AB8CD4300236F60 /* fanmaker-sdk-loading-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48472AB8CD4300236F60 /* fanmaker-sdk-loading-16.png */; };
+		782A48752AB8CD4300236F60 /* fanmaker-sdk-loading-28.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48482AB8CD4300236F60 /* fanmaker-sdk-loading-28.png */; };
+		782A48762AB8CD4300236F60 /* fanmaker-sdk-loading-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48492AB8CD4300236F60 /* fanmaker-sdk-loading-14.png */; };
+		782A48772AB8CD4300236F60 /* fanmaker-sdk-loading-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A484A2AB8CD4300236F60 /* fanmaker-sdk-loading-15.png */; };
+		782A48782AB8CD4300236F60 /* fanmaker-sdk-loading-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A484B2AB8CD4300236F60 /* fanmaker-sdk-loading-29.png */; };
+		782A48792AB8CD4300236F60 /* fanmaker-sdk-loading-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A484C2AB8CD4300236F60 /* fanmaker-sdk-loading-11.png */; };
+		782A487A2AB8CD4300236F60 /* fanmaker-sdk-loading-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A484D2AB8CD4300236F60 /* fanmaker-sdk-loading-10.png */; };
+		782A487B2AB8CD4300236F60 /* fanmaker-sdk-loading-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A484E2AB8CD4300236F60 /* fanmaker-sdk-loading-12.png */; };
+		782A487C2AB8CD4300236F60 /* fanmaker-sdk-loading-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A484F2AB8CD4300236F60 /* fanmaker-sdk-loading-13.png */; };
+		782A487D2AB8CD4300236F60 /* fanmaker-sdk-loading-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48502AB8CD4300236F60 /* fanmaker-sdk-loading-9.png */; };
+		782A487E2AB8CD4300236F60 /* fanmaker-sdk-loading-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48512AB8CD4300236F60 /* fanmaker-sdk-loading-8.png */; };
+		782A487F2AB8CD4300236F60 /* fanmaker-sdk-loading-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48522AB8CD4300236F60 /* fanmaker-sdk-loading-5.png */; };
+		782A48802AB8CD4300236F60 /* fanmaker-sdk-loading-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48532AB8CD4300236F60 /* fanmaker-sdk-loading-4.png */; };
+		782A48812AB8CD4300236F60 /* fanmaker-sdk-loading-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48542AB8CD4300236F60 /* fanmaker-sdk-loading-6.png */; };
+		782A48822AB8CD4300236F60 /* fanmaker-sdk-loading-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48552AB8CD4300236F60 /* fanmaker-sdk-loading-7.png */; };
+		782A48832AB8CD4300236F60 /* fanmaker-sdk-loading-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48562AB8CD4300236F60 /* fanmaker-sdk-loading-3.png */; };
+		782A48842AB8CD4300236F60 /* fanmaker-sdk-loading-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48572AB8CD4300236F60 /* fanmaker-sdk-loading-2.png */; };
+		782A48852AB8CD4300236F60 /* fanmaker-sdk-loading-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48582AB8CD4300236F60 /* fanmaker-sdk-loading-0.png */; };
+		782A48862AB8CD4300236F60 /* fanmaker-sdk-loading-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48592AB8CD4300236F60 /* fanmaker-sdk-loading-1.png */; };
+		782A48872AB8CD4300236F60 /* fanmaker-sdk-loading-22.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A485A2AB8CD4300236F60 /* fanmaker-sdk-loading-22.png */; };
+		782A48882AB8CD4300236F60 /* fanmaker-sdk-loading-23.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A485B2AB8CD4300236F60 /* fanmaker-sdk-loading-23.png */; };
+		782A48892AB8CD4300236F60 /* fanmaker-sdk-loading-21.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A485C2AB8CD4300236F60 /* fanmaker-sdk-loading-21.png */; };
+		782A488A2AB8CD4300236F60 /* fanmaker-sdk-loading-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A485D2AB8CD4300236F60 /* fanmaker-sdk-loading-20.png */; };
+		782A488B2AB8CD4300236F60 /* fanmaker-sdk-loading-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A485E2AB8CD4300236F60 /* fanmaker-sdk-loading-24.png */; };
+		782A488C2AB8CD4300236F60 /* fanmaker-sdk-loading-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A485F2AB8CD4300236F60 /* fanmaker-sdk-loading-18.png */; };
+		782A488D2AB8CD4300236F60 /* fanmaker-sdk-loading-19.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48602AB8CD4300236F60 /* fanmaker-sdk-loading-19.png */; };
+		782A488E2AB8CD4300236F60 /* fanmaker-sdk-loading-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48612AB8CD4300236F60 /* fanmaker-sdk-loading-25.png */; };
+		782A488F2AB8CD4300236F60 /* fanmaker-sdk-loading-27.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48622AB8CD4300236F60 /* fanmaker-sdk-loading-27.png */; };
+		782A48902AB8CD4300236F60 /* fanmaker-sdk-loading-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48632AB8CD4300236F60 /* fanmaker-sdk-loading-26.png */; };
+		782A48912AB8CD4300236F60 /* FanMakerSDKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48642AB8CD4300236F60 /* FanMakerSDKWebView.swift */; };
+		782A48922AB8CD4300236F60 /* FanMakerSDKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48652AB8CD4300236F60 /* FanMakerSDKWebViewController.swift */; };
+		782A48932AB8CD4300236F60 /* FanMakerSDKBeaconsManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48662AB8CD4300236F60 /* FanMakerSDKBeaconsManagerDelegate.swift */; };
+		782A48942AB8CD4300236F60 /* FanMakerSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48672AB8CD4300236F60 /* FanMakerSDK.swift */; };
+		782A48952AB8CD4300236F60 /* FanMakerSDKHttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48692AB8CD4300236F60 /* FanMakerSDKHttpResponse.swift */; };
+		782A48962AB8CD4300236F60 /* FanMakerSDKSiteDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A486B2AB8CD4300236F60 /* FanMakerSDKSiteDetails.swift */; };
+		782A48972AB8CD4300236F60 /* FanMakerSDKIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A486C2AB8CD4300236F60 /* FanMakerSDKIdentifiers.swift */; };
+		782A48982AB8CD4300236F60 /* FanMakerSDKBeaconRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A486D2AB8CD4300236F60 /* FanMakerSDKBeaconRegion.swift */; };
+		782A48992AB8CD4300236F60 /* FanMakerSDKHttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A486E2AB8CD4300236F60 /* FanMakerSDKHttpError.swift */; };
+		782A489A2AB8CD4300236F60 /* FanMakerSDKHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A486F2AB8CD4300236F60 /* FanMakerSDKHttpRequest.swift */; };
+		782A489B2AB8CD4300236F60 /* FanMakerSDKHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48702AB8CD4300236F60 /* FanMakerSDKHttp.swift */; };
+		782A489D2AB8D1BE00236F60 /* FanMakeLocationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 782A489C2AB8D1BE00236F60 /* FanMakeLocationModule.m */; };
+		78E0DFAE2AB72C6000F742E3 /* RCTCalendarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E0DFAD2AB72C6000F742E3 /* RCTCalendarModule.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = NativeModules;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* NativeModulesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeModulesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* NativeModulesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeModulesTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* NativeModules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeModules.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NativeModules/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = NativeModules/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NativeModules/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NativeModules/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NativeModules/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-NativeModules-NativeModulesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeModules-NativeModulesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-NativeModules.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeModules.debug.xcconfig"; path = "Target Support Files/Pods-NativeModules/Pods-NativeModules.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-NativeModules.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeModules.release.xcconfig"; path = "Target Support Files/Pods-NativeModules/Pods-NativeModules.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-NativeModules-NativeModulesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeModules-NativeModulesTests.debug.xcconfig"; path = "Target Support Files/Pods-NativeModules-NativeModulesTests/Pods-NativeModules-NativeModulesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-NativeModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		782A48372AB8B19F00236F60 /* HelloModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloModule.swift; sourceTree = "<group>"; };
+		782A483A2AB8B1CD00236F60 /* HelloModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloModule.m; sourceTree = "<group>"; };
+		782A483E2AB8CB6C00236F60 /* FanMakerLocationModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanMakerLocationModule.swift; sourceTree = "<group>"; };
+		782A48432AB8CD4300236F60 /* FanMakerSDKBeaconsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKBeaconsManager.swift; sourceTree = "<group>"; };
+		782A48442AB8CD4300236F60 /* FanMakerSDKLocationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKLocationDelegate.swift; sourceTree = "<group>"; };
+		782A48462AB8CD4300236F60 /* fanmaker-sdk-loading-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-17.png"; sourceTree = "<group>"; };
+		782A48472AB8CD4300236F60 /* fanmaker-sdk-loading-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-16.png"; sourceTree = "<group>"; };
+		782A48482AB8CD4300236F60 /* fanmaker-sdk-loading-28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-28.png"; sourceTree = "<group>"; };
+		782A48492AB8CD4300236F60 /* fanmaker-sdk-loading-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-14.png"; sourceTree = "<group>"; };
+		782A484A2AB8CD4300236F60 /* fanmaker-sdk-loading-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-15.png"; sourceTree = "<group>"; };
+		782A484B2AB8CD4300236F60 /* fanmaker-sdk-loading-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-29.png"; sourceTree = "<group>"; };
+		782A484C2AB8CD4300236F60 /* fanmaker-sdk-loading-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-11.png"; sourceTree = "<group>"; };
+		782A484D2AB8CD4300236F60 /* fanmaker-sdk-loading-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-10.png"; sourceTree = "<group>"; };
+		782A484E2AB8CD4300236F60 /* fanmaker-sdk-loading-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-12.png"; sourceTree = "<group>"; };
+		782A484F2AB8CD4300236F60 /* fanmaker-sdk-loading-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-13.png"; sourceTree = "<group>"; };
+		782A48502AB8CD4300236F60 /* fanmaker-sdk-loading-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-9.png"; sourceTree = "<group>"; };
+		782A48512AB8CD4300236F60 /* fanmaker-sdk-loading-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-8.png"; sourceTree = "<group>"; };
+		782A48522AB8CD4300236F60 /* fanmaker-sdk-loading-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-5.png"; sourceTree = "<group>"; };
+		782A48532AB8CD4300236F60 /* fanmaker-sdk-loading-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-4.png"; sourceTree = "<group>"; };
+		782A48542AB8CD4300236F60 /* fanmaker-sdk-loading-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-6.png"; sourceTree = "<group>"; };
+		782A48552AB8CD4300236F60 /* fanmaker-sdk-loading-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-7.png"; sourceTree = "<group>"; };
+		782A48562AB8CD4300236F60 /* fanmaker-sdk-loading-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-3.png"; sourceTree = "<group>"; };
+		782A48572AB8CD4300236F60 /* fanmaker-sdk-loading-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-2.png"; sourceTree = "<group>"; };
+		782A48582AB8CD4300236F60 /* fanmaker-sdk-loading-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-0.png"; sourceTree = "<group>"; };
+		782A48592AB8CD4300236F60 /* fanmaker-sdk-loading-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-1.png"; sourceTree = "<group>"; };
+		782A485A2AB8CD4300236F60 /* fanmaker-sdk-loading-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-22.png"; sourceTree = "<group>"; };
+		782A485B2AB8CD4300236F60 /* fanmaker-sdk-loading-23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-23.png"; sourceTree = "<group>"; };
+		782A485C2AB8CD4300236F60 /* fanmaker-sdk-loading-21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-21.png"; sourceTree = "<group>"; };
+		782A485D2AB8CD4300236F60 /* fanmaker-sdk-loading-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-20.png"; sourceTree = "<group>"; };
+		782A485E2AB8CD4300236F60 /* fanmaker-sdk-loading-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-24.png"; sourceTree = "<group>"; };
+		782A485F2AB8CD4300236F60 /* fanmaker-sdk-loading-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-18.png"; sourceTree = "<group>"; };
+		782A48602AB8CD4300236F60 /* fanmaker-sdk-loading-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-19.png"; sourceTree = "<group>"; };
+		782A48612AB8CD4300236F60 /* fanmaker-sdk-loading-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-25.png"; sourceTree = "<group>"; };
+		782A48622AB8CD4300236F60 /* fanmaker-sdk-loading-27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-27.png"; sourceTree = "<group>"; };
+		782A48632AB8CD4300236F60 /* fanmaker-sdk-loading-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-26.png"; sourceTree = "<group>"; };
+		782A48642AB8CD4300236F60 /* FanMakerSDKWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKWebView.swift; sourceTree = "<group>"; };
+		782A48652AB8CD4300236F60 /* FanMakerSDKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKWebViewController.swift; sourceTree = "<group>"; };
+		782A48662AB8CD4300236F60 /* FanMakerSDKBeaconsManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKBeaconsManagerDelegate.swift; sourceTree = "<group>"; };
+		782A48672AB8CD4300236F60 /* FanMakerSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDK.swift; sourceTree = "<group>"; };
+		782A48692AB8CD4300236F60 /* FanMakerSDKHttpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKHttpResponse.swift; sourceTree = "<group>"; };
+		782A486B2AB8CD4300236F60 /* FanMakerSDKSiteDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKSiteDetails.swift; sourceTree = "<group>"; };
+		782A486C2AB8CD4300236F60 /* FanMakerSDKIdentifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKIdentifiers.swift; sourceTree = "<group>"; };
+		782A486D2AB8CD4300236F60 /* FanMakerSDKBeaconRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKBeaconRegion.swift; sourceTree = "<group>"; };
+		782A486E2AB8CD4300236F60 /* FanMakerSDKHttpError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKHttpError.swift; sourceTree = "<group>"; };
+		782A486F2AB8CD4300236F60 /* FanMakerSDKHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKHttpRequest.swift; sourceTree = "<group>"; };
+		782A48702AB8CD4300236F60 /* FanMakerSDKHttp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKHttp.swift; sourceTree = "<group>"; };
+		782A489C2AB8D1BE00236F60 /* FanMakeLocationModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanMakeLocationModule.m; sourceTree = "<group>"; };
+		7887C5B52AB8A2CA009DDA45 /* NativeModules-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeModules-Bridging-Header.h"; sourceTree = "<group>"; };
+		78E0DFAC2AB72C2700F742E3 /* RCTCalendarModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTCalendarModule.h; sourceTree = "<group>"; };
+		78E0DFAD2AB72C6000F742E3 /* RCTCalendarModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTCalendarModule.m; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = NativeModules/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-NativeModules-NativeModulesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeModules-NativeModulesTests.release.xcconfig"; path = "Target Support Files/Pods-NativeModules-NativeModulesTests/Pods-NativeModules-NativeModulesTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-NativeModules-NativeModulesTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-NativeModules.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* NativeModulesTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* NativeModulesTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = NativeModulesTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* NativeModules */ = {
+			isa = PBXGroup;
+			children = (
+				782A489F2AB8D9EA00236F60 /* FanMaker */,
+				782A489E2AB8D9C300236F60 /* Samples */,
+				782A48402AB8CD4300236F60 /* Turducken */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				7887C5B52AB8A2CA009DDA45 /* NativeModules-Bridging-Header.h */,
+			);
+			name = NativeModules;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-NativeModules.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-NativeModules-NativeModulesTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		782A48402AB8CD4300236F60 /* Turducken */ = {
+			isa = PBXGroup;
+			children = (
+				782A48412AB8CD4300236F60 /* Sources */,
+			);
+			path = Turducken;
+			sourceTree = "<group>";
+		};
+		782A48412AB8CD4300236F60 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				782A48422AB8CD4300236F60 /* FanMaker */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		782A48422AB8CD4300236F60 /* FanMaker */ = {
+			isa = PBXGroup;
+			children = (
+				782A48432AB8CD4300236F60 /* FanMakerSDKBeaconsManager.swift */,
+				782A48442AB8CD4300236F60 /* FanMakerSDKLocationDelegate.swift */,
+				782A48452AB8CD4300236F60 /* Resources */,
+				782A48642AB8CD4300236F60 /* FanMakerSDKWebView.swift */,
+				782A48652AB8CD4300236F60 /* FanMakerSDKWebViewController.swift */,
+				782A48662AB8CD4300236F60 /* FanMakerSDKBeaconsManagerDelegate.swift */,
+				782A48672AB8CD4300236F60 /* FanMakerSDK.swift */,
+				782A48682AB8CD4300236F60 /* Http */,
+			);
+			path = FanMaker;
+			sourceTree = "<group>";
+		};
+		782A48452AB8CD4300236F60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				782A48462AB8CD4300236F60 /* fanmaker-sdk-loading-17.png */,
+				782A48472AB8CD4300236F60 /* fanmaker-sdk-loading-16.png */,
+				782A48482AB8CD4300236F60 /* fanmaker-sdk-loading-28.png */,
+				782A48492AB8CD4300236F60 /* fanmaker-sdk-loading-14.png */,
+				782A484A2AB8CD4300236F60 /* fanmaker-sdk-loading-15.png */,
+				782A484B2AB8CD4300236F60 /* fanmaker-sdk-loading-29.png */,
+				782A484C2AB8CD4300236F60 /* fanmaker-sdk-loading-11.png */,
+				782A484D2AB8CD4300236F60 /* fanmaker-sdk-loading-10.png */,
+				782A484E2AB8CD4300236F60 /* fanmaker-sdk-loading-12.png */,
+				782A484F2AB8CD4300236F60 /* fanmaker-sdk-loading-13.png */,
+				782A48502AB8CD4300236F60 /* fanmaker-sdk-loading-9.png */,
+				782A48512AB8CD4300236F60 /* fanmaker-sdk-loading-8.png */,
+				782A48522AB8CD4300236F60 /* fanmaker-sdk-loading-5.png */,
+				782A48532AB8CD4300236F60 /* fanmaker-sdk-loading-4.png */,
+				782A48542AB8CD4300236F60 /* fanmaker-sdk-loading-6.png */,
+				782A48552AB8CD4300236F60 /* fanmaker-sdk-loading-7.png */,
+				782A48562AB8CD4300236F60 /* fanmaker-sdk-loading-3.png */,
+				782A48572AB8CD4300236F60 /* fanmaker-sdk-loading-2.png */,
+				782A48582AB8CD4300236F60 /* fanmaker-sdk-loading-0.png */,
+				782A48592AB8CD4300236F60 /* fanmaker-sdk-loading-1.png */,
+				782A485A2AB8CD4300236F60 /* fanmaker-sdk-loading-22.png */,
+				782A485B2AB8CD4300236F60 /* fanmaker-sdk-loading-23.png */,
+				782A485C2AB8CD4300236F60 /* fanmaker-sdk-loading-21.png */,
+				782A485D2AB8CD4300236F60 /* fanmaker-sdk-loading-20.png */,
+				782A485E2AB8CD4300236F60 /* fanmaker-sdk-loading-24.png */,
+				782A485F2AB8CD4300236F60 /* fanmaker-sdk-loading-18.png */,
+				782A48602AB8CD4300236F60 /* fanmaker-sdk-loading-19.png */,
+				782A48612AB8CD4300236F60 /* fanmaker-sdk-loading-25.png */,
+				782A48622AB8CD4300236F60 /* fanmaker-sdk-loading-27.png */,
+				782A48632AB8CD4300236F60 /* fanmaker-sdk-loading-26.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		782A48682AB8CD4300236F60 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				782A48692AB8CD4300236F60 /* FanMakerSDKHttpResponse.swift */,
+				782A486A2AB8CD4300236F60 /* Responses */,
+				782A486E2AB8CD4300236F60 /* FanMakerSDKHttpError.swift */,
+				782A486F2AB8CD4300236F60 /* FanMakerSDKHttpRequest.swift */,
+				782A48702AB8CD4300236F60 /* FanMakerSDKHttp.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		782A486A2AB8CD4300236F60 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				782A486B2AB8CD4300236F60 /* FanMakerSDKSiteDetails.swift */,
+				782A486C2AB8CD4300236F60 /* FanMakerSDKIdentifiers.swift */,
+				782A486D2AB8CD4300236F60 /* FanMakerSDKBeaconRegion.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		782A489E2AB8D9C300236F60 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				78E0DFAC2AB72C2700F742E3 /* RCTCalendarModule.h */,
+				782A48372AB8B19F00236F60 /* HelloModule.swift */,
+				782A483A2AB8B1CD00236F60 /* HelloModule.m */,
+				78E0DFAD2AB72C6000F742E3 /* RCTCalendarModule.m */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		782A489F2AB8D9EA00236F60 /* FanMaker */ = {
+			isa = PBXGroup;
+			children = (
+				782A483E2AB8CB6C00236F60 /* FanMakerLocationModule.swift */,
+				782A489C2AB8D1BE00236F60 /* FanMakeLocationModule.m */,
+			);
+			path = FanMaker;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* NativeModules */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* NativeModulesTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* NativeModules.app */,
+				00E356EE1AD99517003FC87E /* NativeModulesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-NativeModules.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-NativeModules.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-NativeModules-NativeModulesTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-NativeModules-NativeModulesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* NativeModulesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NativeModulesTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = NativeModulesTests;
+			productName = NativeModulesTests;
+			productReference = 00E356EE1AD99517003FC87E /* NativeModulesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* NativeModules */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NativeModules" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeModules;
+			productName = NativeModules;
+			productReference = 13B07F961A680F5B00A75B9A /* NativeModules.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NativeModules" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* NativeModules */,
+				00E356ED1AD99517003FC87E /* NativeModulesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782A487F2AB8CD4300236F60 /* fanmaker-sdk-loading-5.png in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				782A48902AB8CD4300236F60 /* fanmaker-sdk-loading-26.png in Resources */,
+				782A48852AB8CD4300236F60 /* fanmaker-sdk-loading-0.png in Resources */,
+				782A487B2AB8CD4300236F60 /* fanmaker-sdk-loading-12.png in Resources */,
+				782A48812AB8CD4300236F60 /* fanmaker-sdk-loading-6.png in Resources */,
+				782A48822AB8CD4300236F60 /* fanmaker-sdk-loading-7.png in Resources */,
+				782A48752AB8CD4300236F60 /* fanmaker-sdk-loading-28.png in Resources */,
+				782A48772AB8CD4300236F60 /* fanmaker-sdk-loading-15.png in Resources */,
+				782A48832AB8CD4300236F60 /* fanmaker-sdk-loading-3.png in Resources */,
+				782A488E2AB8CD4300236F60 /* fanmaker-sdk-loading-25.png in Resources */,
+				782A48892AB8CD4300236F60 /* fanmaker-sdk-loading-21.png in Resources */,
+				782A48742AB8CD4300236F60 /* fanmaker-sdk-loading-16.png in Resources */,
+				782A487E2AB8CD4300236F60 /* fanmaker-sdk-loading-8.png in Resources */,
+				782A48762AB8CD4300236F60 /* fanmaker-sdk-loading-14.png in Resources */,
+				782A48862AB8CD4300236F60 /* fanmaker-sdk-loading-1.png in Resources */,
+				782A487C2AB8CD4300236F60 /* fanmaker-sdk-loading-13.png in Resources */,
+				782A488B2AB8CD4300236F60 /* fanmaker-sdk-loading-24.png in Resources */,
+				782A487A2AB8CD4300236F60 /* fanmaker-sdk-loading-10.png in Resources */,
+				782A48882AB8CD4300236F60 /* fanmaker-sdk-loading-23.png in Resources */,
+				782A48782AB8CD4300236F60 /* fanmaker-sdk-loading-29.png in Resources */,
+				782A488C2AB8CD4300236F60 /* fanmaker-sdk-loading-18.png in Resources */,
+				782A487D2AB8CD4300236F60 /* fanmaker-sdk-loading-9.png in Resources */,
+				782A48842AB8CD4300236F60 /* fanmaker-sdk-loading-2.png in Resources */,
+				782A488F2AB8CD4300236F60 /* fanmaker-sdk-loading-27.png in Resources */,
+				782A48792AB8CD4300236F60 /* fanmaker-sdk-loading-11.png in Resources */,
+				782A48802AB8CD4300236F60 /* fanmaker-sdk-loading-4.png in Resources */,
+				782A488A2AB8CD4300236F60 /* fanmaker-sdk-loading-20.png in Resources */,
+				782A488D2AB8CD4300236F60 /* fanmaker-sdk-loading-19.png in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				782A48872AB8CD4300236F60 /* fanmaker-sdk-loading-22.png in Resources */,
+				782A48732AB8CD4300236F60 /* fanmaker-sdk-loading-17.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeModules/Pods-NativeModules-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeModules/Pods-NativeModules-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NativeModules/Pods-NativeModules-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NativeModules-NativeModulesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NativeModules-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeModules-NativeModulesTests/Pods-NativeModules-NativeModulesTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeModules-NativeModulesTests/Pods-NativeModules-NativeModulesTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NativeModules-NativeModulesTests/Pods-NativeModules-NativeModulesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeModules/Pods-NativeModules-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeModules/Pods-NativeModules-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NativeModules/Pods-NativeModules-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeModules-NativeModulesTests/Pods-NativeModules-NativeModulesTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeModules-NativeModulesTests/Pods-NativeModules-NativeModulesTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NativeModules-NativeModulesTests/Pods-NativeModules-NativeModulesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* NativeModulesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782A489D2AB8D1BE00236F60 /* FanMakeLocationModule.m in Sources */,
+				78E0DFAE2AB72C6000F742E3 /* RCTCalendarModule.m in Sources */,
+				782A483B2AB8B1CD00236F60 /* HelloModule.m in Sources */,
+				782A48912AB8CD4300236F60 /* FanMakerSDKWebView.swift in Sources */,
+				782A48962AB8CD4300236F60 /* FanMakerSDKSiteDetails.swift in Sources */,
+				782A48952AB8CD4300236F60 /* FanMakerSDKHttpResponse.swift in Sources */,
+				782A48942AB8CD4300236F60 /* FanMakerSDK.swift in Sources */,
+				782A48392AB8B19F00236F60 /* HelloModule.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				782A48722AB8CD4300236F60 /* FanMakerSDKLocationDelegate.swift in Sources */,
+				782A489B2AB8CD4300236F60 /* FanMakerSDKHttp.swift in Sources */,
+				782A483F2AB8CB6C00236F60 /* FanMakerLocationModule.swift in Sources */,
+				782A489A2AB8CD4300236F60 /* FanMakerSDKHttpRequest.swift in Sources */,
+				782A48982AB8CD4300236F60 /* FanMakerSDKBeaconRegion.swift in Sources */,
+				782A48972AB8CD4300236F60 /* FanMakerSDKIdentifiers.swift in Sources */,
+				782A48712AB8CD4300236F60 /* FanMakerSDKBeaconsManager.swift in Sources */,
+				782A48932AB8CD4300236F60 /* FanMakerSDKBeaconsManagerDelegate.swift in Sources */,
+				782A48992AB8CD4300236F60 /* FanMakerSDKHttpError.swift in Sources */,
+				782A48922AB8CD4300236F60 /* FanMakerSDKWebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* NativeModules */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-NativeModules-NativeModulesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NativeModulesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeModules.app/NativeModules";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-NativeModules-NativeModulesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = NativeModulesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeModules.app/NativeModules";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-NativeModules.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NativeModules/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = NativeModules;
+				SWIFT_OBJC_BRIDGING_HEADER = "NativeModules-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-NativeModules.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = NativeModules/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = NativeModules;
+				SWIFT_OBJC_BRIDGING_HEADER = "NativeModules-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NativeModulesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NativeModules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NativeModules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
