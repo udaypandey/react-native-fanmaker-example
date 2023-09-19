@@ -24,5 +24,8 @@ class FanMakerLocationModule: NSObject {
     FanMakerSDK.disableLocationTracking()
   }
   
-  
+  @objc
+  static func requiresMainQueueSetup() -> Bool {
+      return false
+  }
 }

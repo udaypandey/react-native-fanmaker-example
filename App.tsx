@@ -8,9 +8,9 @@
 import React from 'react';
 import {Button, View} from 'react-native';
 
-import NativeCalendarModule from './components/NativeCalendarModule';
-import NativeHelloModule from './components/NativeHelloModule';
-import FanMakerLocation from './components/FanMakerLocation';
+import NativeCalendarModule from './components/samples/NativeCalendarModule';
+import NativeHelloModule from './components/samples/NativeHelloModule';
+import FanMakerLocation from './components/fanMaker/FanMakerLocation';
 
 // type SectionProps = PropsWithChildren<{
 //   title: string;

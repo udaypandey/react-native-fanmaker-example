@@ -8,7 +8,7 @@
 import Foundation
 import CoreLocation
 
-public struct FanMakerSDKBeaconRegion : Decodable {
+public struct FanMakerSDKBeaconRegion : Codable {
     public let id : Int
     public let name : String
     public let uuid : String

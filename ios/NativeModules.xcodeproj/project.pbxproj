@@ -59,7 +59,9 @@
 		782A48992AB8CD4300236F60 /* FanMakerSDKHttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A486E2AB8CD4300236F60 /* FanMakerSDKHttpError.swift */; };
 		782A489A2AB8CD4300236F60 /* FanMakerSDKHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A486F2AB8CD4300236F60 /* FanMakerSDKHttpRequest.swift */; };
 		782A489B2AB8CD4300236F60 /* FanMakerSDKHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48702AB8CD4300236F60 /* FanMakerSDKHttp.swift */; };
-		782A489D2AB8D1BE00236F60 /* FanMakeLocationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 782A489C2AB8D1BE00236F60 /* FanMakeLocationModule.m */; };
+		782A489D2AB8D1BE00236F60 /* FanMakerLocationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 782A489C2AB8D1BE00236F60 /* FanMakerLocationModule.m */; };
+		78CE22E02AB9A583009ABD47 /* FanMakerBeaconsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CE22DF2AB9A583009ABD47 /* FanMakerBeaconsModule.m */; };
+		78CE22E22AB9D46A009ABD47 /* FanMakerBeaconsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE22E12AB9D46A009ABD47 /* FanMakerBeaconsModule.swift */; };
 		78E0DFAE2AB72C6000F742E3 /* RCTCalendarModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E0DFAD2AB72C6000F742E3 /* RCTCalendarModule.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -135,8 +137,10 @@
 		782A486E2AB8CD4300236F60 /* FanMakerSDKHttpError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKHttpError.swift; sourceTree = "<group>"; };
 		782A486F2AB8CD4300236F60 /* FanMakerSDKHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKHttpRequest.swift; sourceTree = "<group>"; };
 		782A48702AB8CD4300236F60 /* FanMakerSDKHttp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKHttp.swift; sourceTree = "<group>"; };
-		782A489C2AB8D1BE00236F60 /* FanMakeLocationModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanMakeLocationModule.m; sourceTree = "<group>"; };
+		782A489C2AB8D1BE00236F60 /* FanMakerLocationModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanMakerLocationModule.m; sourceTree = "<group>"; };
 		7887C5B52AB8A2CA009DDA45 /* NativeModules-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeModules-Bridging-Header.h"; sourceTree = "<group>"; };
+		78CE22DF2AB9A583009ABD47 /* FanMakerBeaconsModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanMakerBeaconsModule.m; sourceTree = "<group>"; };
+		78CE22E12AB9D46A009ABD47 /* FanMakerBeaconsModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerBeaconsModule.swift; sourceTree = "<group>"; };
 		78E0DFAC2AB72C2700F742E3 /* RCTCalendarModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTCalendarModule.h; sourceTree = "<group>"; };
 		78E0DFAD2AB72C6000F742E3 /* RCTCalendarModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTCalendarModule.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = NativeModules/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -313,7 +317,9 @@
 			isa = PBXGroup;
 			children = (
 				782A483E2AB8CB6C00236F60 /* FanMakerLocationModule.swift */,
-				782A489C2AB8D1BE00236F60 /* FanMakeLocationModule.m */,
+				78CE22E12AB9D46A009ABD47 /* FanMakerBeaconsModule.swift */,
+				78CE22DF2AB9A583009ABD47 /* FanMakerBeaconsModule.m */,
+				782A489C2AB8D1BE00236F60 /* FanMakerLocationModule.m */,
 			);
 			path = FanMaker;
 			sourceTree = "<group>";
@@ -654,13 +660,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782A489D2AB8D1BE00236F60 /* FanMakeLocationModule.m in Sources */,
+				782A489D2AB8D1BE00236F60 /* FanMakerLocationModule.m in Sources */,
 				78E0DFAE2AB72C6000F742E3 /* RCTCalendarModule.m in Sources */,
+				78CE22E22AB9D46A009ABD47 /* FanMakerBeaconsModule.swift in Sources */,
 				782A483B2AB8B1CD00236F60 /* HelloModule.m in Sources */,
 				782A48912AB8CD4300236F60 /* FanMakerSDKWebView.swift in Sources */,
 				782A48962AB8CD4300236F60 /* FanMakerSDKSiteDetails.swift in Sources */,
 				782A48952AB8CD4300236F60 /* FanMakerSDKHttpResponse.swift in Sources */,
 				782A48942AB8CD4300236F60 /* FanMakerSDK.swift in Sources */,
+				78CE22E02AB9A583009ABD47 /* FanMakerBeaconsModule.m in Sources */,
 				782A48392AB8B19F00236F60 /* HelloModule.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
