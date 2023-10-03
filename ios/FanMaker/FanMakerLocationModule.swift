@@ -13,19 +13,16 @@ class FanMakerLocationModule: NSObject {
   
   @objc(enableLocationTracking)
   func enableLocationTracking() {
-    print("Hit enableLocationTracking")
-
     FanMakerSDK.enableLocationTracking()
   }
   
   @objc(disableLocationTracking)
   func disableLocationTracking() {
-    print("Hit disableLocationTracking")
     FanMakerSDK.disableLocationTracking()
   }
   
   @objc
   static func requiresMainQueueSetup() -> Bool {
-      return false
+    return false
   }
 }
