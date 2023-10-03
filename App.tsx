@@ -31,8 +31,8 @@ const App = () => {
   return (
     <View style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>
       <Button
-        title="Click to invoke your native module!"
-        color="#841584"
+        title="Show FanMaker UI!"
+        style={{color: 'dodgerblue', fontSize: 20, fontWeight: 'bold'}}
         onPress={onPress}
       />
 

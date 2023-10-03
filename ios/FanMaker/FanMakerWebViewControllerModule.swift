@@ -1,5 +1,5 @@
 //
-//  FanMakeBeaconsModule.swift
+//  FanMakerWebViewControllerModule.swift
 //  NativeModules
 //
 //  Created by Uday Pandey on 19/09/2023.
