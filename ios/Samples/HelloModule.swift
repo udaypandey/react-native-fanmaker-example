@@ -11,9 +11,14 @@ import Foundation
 
 @objc(HelloModule)
 class HelloModule: NSObject {
-
- @objc(hello:)
- func hello(_ name: String) -> Void {
+  
+  @objc(hello:)
+  func hello(_ name: String) -> Void {
     print("Got name: \(name)")
- }
+  }
+  
+  @objc
+  class func requiresMainQueueSetup() -> Bool {
+    false
+  }
 }

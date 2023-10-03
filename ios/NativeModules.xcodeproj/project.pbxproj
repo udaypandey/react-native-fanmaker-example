@@ -13,6 +13,12 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-NativeModules-NativeModulesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-NativeModules-NativeModulesTests.a */; };
+		7813D2192ACC254600FA9EAD /* FanMakerWebViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7813D2182ACC254600FA9EAD /* FanMakerWebViewManager.swift */; };
+		7813D21B2ACC25C900FA9EAD /* FanMakerWebViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7813D21A2ACC25C900FA9EAD /* FanMakerWebViewManager.m */; };
+		7813D21E2ACC310800FA9EAD /* FanMakerWebViewControllerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7813D21C2ACC310800FA9EAD /* FanMakerWebViewControllerModule.swift */; };
+		7813D21F2ACC310800FA9EAD /* FanMakerWebViewControllerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7813D21D2ACC310800FA9EAD /* FanMakerWebViewControllerModule.m */; };
+		7813D2222ACC53CE00FA9EAD /* FanMakerSDKModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7813D2202ACC53CE00FA9EAD /* FanMakerSDKModule.m */; };
+		7813D2232ACC53CE00FA9EAD /* FanMakerSDKModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7813D2212ACC53CE00FA9EAD /* FanMakerSDKModule.swift */; };
 		782A48392AB8B19F00236F60 /* HelloModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48372AB8B19F00236F60 /* HelloModule.swift */; };
 		782A483B2AB8B1CD00236F60 /* HelloModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 782A483A2AB8B1CD00236F60 /* HelloModule.m */; };
 		782A483F2AB8CB6C00236F60 /* FanMakerLocationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A483E2AB8CB6C00236F60 /* FanMakerLocationModule.swift */; };
@@ -48,6 +54,12 @@
 		5709B34CF0A7D63546082F79 /* Pods-NativeModules.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeModules.release.xcconfig"; path = "Target Support Files/Pods-NativeModules/Pods-NativeModules.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-NativeModules-NativeModulesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeModules-NativeModulesTests.debug.xcconfig"; path = "Target Support Files/Pods-NativeModules-NativeModulesTests/Pods-NativeModules-NativeModulesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-NativeModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7813D2182ACC254600FA9EAD /* FanMakerWebViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanMakerWebViewManager.swift; sourceTree = "<group>"; };
+		7813D21A2ACC25C900FA9EAD /* FanMakerWebViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanMakerWebViewManager.m; sourceTree = "<group>"; };
+		7813D21C2ACC310800FA9EAD /* FanMakerWebViewControllerModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerWebViewControllerModule.swift; sourceTree = "<group>"; };
+		7813D21D2ACC310800FA9EAD /* FanMakerWebViewControllerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanMakerWebViewControllerModule.m; sourceTree = "<group>"; };
+		7813D2202ACC53CE00FA9EAD /* FanMakerSDKModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanMakerSDKModule.m; sourceTree = "<group>"; };
+		7813D2212ACC53CE00FA9EAD /* FanMakerSDKModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKModule.swift; sourceTree = "<group>"; };
 		782A48372AB8B19F00236F60 /* HelloModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloModule.swift; sourceTree = "<group>"; };
 		782A483A2AB8B1CD00236F60 /* HelloModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloModule.m; sourceTree = "<group>"; };
 		782A483E2AB8CB6C00236F60 /* FanMakerLocationModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanMakerLocationModule.swift; sourceTree = "<group>"; };
@@ -141,8 +153,14 @@
 			children = (
 				782A483E2AB8CB6C00236F60 /* FanMakerLocationModule.swift */,
 				78CE22E12AB9D46A009ABD47 /* FanMakerBeaconsModule.swift */,
+				7813D21D2ACC310800FA9EAD /* FanMakerWebViewControllerModule.m */,
+				7813D21C2ACC310800FA9EAD /* FanMakerWebViewControllerModule.swift */,
 				78CE22DF2AB9A583009ABD47 /* FanMakerBeaconsModule.m */,
 				782A489C2AB8D1BE00236F60 /* FanMakerLocationModule.m */,
+				7813D2202ACC53CE00FA9EAD /* FanMakerSDKModule.m */,
+				7813D2212ACC53CE00FA9EAD /* FanMakerSDKModule.swift */,
+				7813D2182ACC254600FA9EAD /* FanMakerWebViewManager.swift */,
+				7813D21A2ACC25C900FA9EAD /* FanMakerWebViewManager.m */,
 			);
 			path = FanMaker;
 			sourceTree = "<group>";
@@ -454,13 +472,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				782A489D2AB8D1BE00236F60 /* FanMakerLocationModule.m in Sources */,
+				7813D2222ACC53CE00FA9EAD /* FanMakerSDKModule.m in Sources */,
 				78E0DFAE2AB72C6000F742E3 /* RCTCalendarModule.m in Sources */,
+				7813D21B2ACC25C900FA9EAD /* FanMakerWebViewManager.m in Sources */,
 				78CE22E22AB9D46A009ABD47 /* FanMakerBeaconsModule.swift in Sources */,
+				7813D21E2ACC310800FA9EAD /* FanMakerWebViewControllerModule.swift in Sources */,
 				782A483B2AB8B1CD00236F60 /* HelloModule.m in Sources */,
 				78CE22E02AB9A583009ABD47 /* FanMakerBeaconsModule.m in Sources */,
+				7813D2232ACC53CE00FA9EAD /* FanMakerSDKModule.swift in Sources */,
 				782A48392AB8B19F00236F60 /* HelloModule.swift in Sources */,
+				7813D2192ACC254600FA9EAD /* FanMakerWebViewManager.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				7813D21F2ACC310800FA9EAD /* FanMakerWebViewControllerModule.m in Sources */,
 				782A483F2AB8CB6C00236F60 /* FanMakerLocationModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
