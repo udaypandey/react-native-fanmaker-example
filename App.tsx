@@ -17,7 +17,7 @@ const App = () => {
   const {hello} = NativeHelloModule;
 
   const onPress = () => {
-    hello('Uday Pandey');
+    hello('Testing HelloModule!');
     console.log('We will invoke the native module here!');
 
     createCalendarEvent('testName', 'testLocation', eventId => {
