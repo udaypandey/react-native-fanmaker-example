@@ -7,6 +7,7 @@
 
 import Foundation
 import CoreLocation
+import FanMaker
 
 @objc(FanMakerBeaconsModule)
 class FanMakerBeaconsModule: RCTEventEmitter {

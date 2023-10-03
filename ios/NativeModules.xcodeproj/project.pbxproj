@@ -16,49 +16,6 @@
 		782A48392AB8B19F00236F60 /* HelloModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48372AB8B19F00236F60 /* HelloModule.swift */; };
 		782A483B2AB8B1CD00236F60 /* HelloModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 782A483A2AB8B1CD00236F60 /* HelloModule.m */; };
 		782A483F2AB8CB6C00236F60 /* FanMakerLocationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A483E2AB8CB6C00236F60 /* FanMakerLocationModule.swift */; };
-		782A48712AB8CD4300236F60 /* FanMakerSDKBeaconsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48432AB8CD4300236F60 /* FanMakerSDKBeaconsManager.swift */; };
-		782A48722AB8CD4300236F60 /* FanMakerSDKLocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48442AB8CD4300236F60 /* FanMakerSDKLocationDelegate.swift */; };
-		782A48732AB8CD4300236F60 /* fanmaker-sdk-loading-17.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48462AB8CD4300236F60 /* fanmaker-sdk-loading-17.png */; };
-		782A48742AB8CD4300236F60 /* fanmaker-sdk-loading-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48472AB8CD4300236F60 /* fanmaker-sdk-loading-16.png */; };
-		782A48752AB8CD4300236F60 /* fanmaker-sdk-loading-28.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48482AB8CD4300236F60 /* fanmaker-sdk-loading-28.png */; };
-		782A48762AB8CD4300236F60 /* fanmaker-sdk-loading-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48492AB8CD4300236F60 /* fanmaker-sdk-loading-14.png */; };
-		782A48772AB8CD4300236F60 /* fanmaker-sdk-loading-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A484A2AB8CD4300236F60 /* fanmaker-sdk-loading-15.png */; };
-		782A48782AB8CD4300236F60 /* fanmaker-sdk-loading-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A484B2AB8CD4300236F60 /* fanmaker-sdk-loading-29.png */; };
-		782A48792AB8CD4300236F60 /* fanmaker-sdk-loading-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A484C2AB8CD4300236F60 /* fanmaker-sdk-loading-11.png */; };
-		782A487A2AB8CD4300236F60 /* fanmaker-sdk-loading-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A484D2AB8CD4300236F60 /* fanmaker-sdk-loading-10.png */; };
-		782A487B2AB8CD4300236F60 /* fanmaker-sdk-loading-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A484E2AB8CD4300236F60 /* fanmaker-sdk-loading-12.png */; };
-		782A487C2AB8CD4300236F60 /* fanmaker-sdk-loading-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A484F2AB8CD4300236F60 /* fanmaker-sdk-loading-13.png */; };
-		782A487D2AB8CD4300236F60 /* fanmaker-sdk-loading-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48502AB8CD4300236F60 /* fanmaker-sdk-loading-9.png */; };
-		782A487E2AB8CD4300236F60 /* fanmaker-sdk-loading-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48512AB8CD4300236F60 /* fanmaker-sdk-loading-8.png */; };
-		782A487F2AB8CD4300236F60 /* fanmaker-sdk-loading-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48522AB8CD4300236F60 /* fanmaker-sdk-loading-5.png */; };
-		782A48802AB8CD4300236F60 /* fanmaker-sdk-loading-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48532AB8CD4300236F60 /* fanmaker-sdk-loading-4.png */; };
-		782A48812AB8CD4300236F60 /* fanmaker-sdk-loading-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48542AB8CD4300236F60 /* fanmaker-sdk-loading-6.png */; };
-		782A48822AB8CD4300236F60 /* fanmaker-sdk-loading-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48552AB8CD4300236F60 /* fanmaker-sdk-loading-7.png */; };
-		782A48832AB8CD4300236F60 /* fanmaker-sdk-loading-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48562AB8CD4300236F60 /* fanmaker-sdk-loading-3.png */; };
-		782A48842AB8CD4300236F60 /* fanmaker-sdk-loading-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48572AB8CD4300236F60 /* fanmaker-sdk-loading-2.png */; };
-		782A48852AB8CD4300236F60 /* fanmaker-sdk-loading-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48582AB8CD4300236F60 /* fanmaker-sdk-loading-0.png */; };
-		782A48862AB8CD4300236F60 /* fanmaker-sdk-loading-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48592AB8CD4300236F60 /* fanmaker-sdk-loading-1.png */; };
-		782A48872AB8CD4300236F60 /* fanmaker-sdk-loading-22.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A485A2AB8CD4300236F60 /* fanmaker-sdk-loading-22.png */; };
-		782A48882AB8CD4300236F60 /* fanmaker-sdk-loading-23.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A485B2AB8CD4300236F60 /* fanmaker-sdk-loading-23.png */; };
-		782A48892AB8CD4300236F60 /* fanmaker-sdk-loading-21.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A485C2AB8CD4300236F60 /* fanmaker-sdk-loading-21.png */; };
-		782A488A2AB8CD4300236F60 /* fanmaker-sdk-loading-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A485D2AB8CD4300236F60 /* fanmaker-sdk-loading-20.png */; };
-		782A488B2AB8CD4300236F60 /* fanmaker-sdk-loading-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A485E2AB8CD4300236F60 /* fanmaker-sdk-loading-24.png */; };
-		782A488C2AB8CD4300236F60 /* fanmaker-sdk-loading-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A485F2AB8CD4300236F60 /* fanmaker-sdk-loading-18.png */; };
-		782A488D2AB8CD4300236F60 /* fanmaker-sdk-loading-19.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48602AB8CD4300236F60 /* fanmaker-sdk-loading-19.png */; };
-		782A488E2AB8CD4300236F60 /* fanmaker-sdk-loading-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48612AB8CD4300236F60 /* fanmaker-sdk-loading-25.png */; };
-		782A488F2AB8CD4300236F60 /* fanmaker-sdk-loading-27.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48622AB8CD4300236F60 /* fanmaker-sdk-loading-27.png */; };
-		782A48902AB8CD4300236F60 /* fanmaker-sdk-loading-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 782A48632AB8CD4300236F60 /* fanmaker-sdk-loading-26.png */; };
-		782A48912AB8CD4300236F60 /* FanMakerSDKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48642AB8CD4300236F60 /* FanMakerSDKWebView.swift */; };
-		782A48922AB8CD4300236F60 /* FanMakerSDKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48652AB8CD4300236F60 /* FanMakerSDKWebViewController.swift */; };
-		782A48932AB8CD4300236F60 /* FanMakerSDKBeaconsManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48662AB8CD4300236F60 /* FanMakerSDKBeaconsManagerDelegate.swift */; };
-		782A48942AB8CD4300236F60 /* FanMakerSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48672AB8CD4300236F60 /* FanMakerSDK.swift */; };
-		782A48952AB8CD4300236F60 /* FanMakerSDKHttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48692AB8CD4300236F60 /* FanMakerSDKHttpResponse.swift */; };
-		782A48962AB8CD4300236F60 /* FanMakerSDKSiteDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A486B2AB8CD4300236F60 /* FanMakerSDKSiteDetails.swift */; };
-		782A48972AB8CD4300236F60 /* FanMakerSDKIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A486C2AB8CD4300236F60 /* FanMakerSDKIdentifiers.swift */; };
-		782A48982AB8CD4300236F60 /* FanMakerSDKBeaconRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A486D2AB8CD4300236F60 /* FanMakerSDKBeaconRegion.swift */; };
-		782A48992AB8CD4300236F60 /* FanMakerSDKHttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A486E2AB8CD4300236F60 /* FanMakerSDKHttpError.swift */; };
-		782A489A2AB8CD4300236F60 /* FanMakerSDKHttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A486F2AB8CD4300236F60 /* FanMakerSDKHttpRequest.swift */; };
-		782A489B2AB8CD4300236F60 /* FanMakerSDKHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A48702AB8CD4300236F60 /* FanMakerSDKHttp.swift */; };
 		782A489D2AB8D1BE00236F60 /* FanMakerLocationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 782A489C2AB8D1BE00236F60 /* FanMakerLocationModule.m */; };
 		78CE22E02AB9A583009ABD47 /* FanMakerBeaconsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CE22DF2AB9A583009ABD47 /* FanMakerBeaconsModule.m */; };
 		78CE22E22AB9D46A009ABD47 /* FanMakerBeaconsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE22E12AB9D46A009ABD47 /* FanMakerBeaconsModule.swift */; };
@@ -94,49 +51,6 @@
 		782A48372AB8B19F00236F60 /* HelloModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloModule.swift; sourceTree = "<group>"; };
 		782A483A2AB8B1CD00236F60 /* HelloModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloModule.m; sourceTree = "<group>"; };
 		782A483E2AB8CB6C00236F60 /* FanMakerLocationModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanMakerLocationModule.swift; sourceTree = "<group>"; };
-		782A48432AB8CD4300236F60 /* FanMakerSDKBeaconsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKBeaconsManager.swift; sourceTree = "<group>"; };
-		782A48442AB8CD4300236F60 /* FanMakerSDKLocationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKLocationDelegate.swift; sourceTree = "<group>"; };
-		782A48462AB8CD4300236F60 /* fanmaker-sdk-loading-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-17.png"; sourceTree = "<group>"; };
-		782A48472AB8CD4300236F60 /* fanmaker-sdk-loading-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-16.png"; sourceTree = "<group>"; };
-		782A48482AB8CD4300236F60 /* fanmaker-sdk-loading-28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-28.png"; sourceTree = "<group>"; };
-		782A48492AB8CD4300236F60 /* fanmaker-sdk-loading-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-14.png"; sourceTree = "<group>"; };
-		782A484A2AB8CD4300236F60 /* fanmaker-sdk-loading-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-15.png"; sourceTree = "<group>"; };
-		782A484B2AB8CD4300236F60 /* fanmaker-sdk-loading-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-29.png"; sourceTree = "<group>"; };
-		782A484C2AB8CD4300236F60 /* fanmaker-sdk-loading-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-11.png"; sourceTree = "<group>"; };
-		782A484D2AB8CD4300236F60 /* fanmaker-sdk-loading-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-10.png"; sourceTree = "<group>"; };
-		782A484E2AB8CD4300236F60 /* fanmaker-sdk-loading-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-12.png"; sourceTree = "<group>"; };
-		782A484F2AB8CD4300236F60 /* fanmaker-sdk-loading-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-13.png"; sourceTree = "<group>"; };
-		782A48502AB8CD4300236F60 /* fanmaker-sdk-loading-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-9.png"; sourceTree = "<group>"; };
-		782A48512AB8CD4300236F60 /* fanmaker-sdk-loading-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-8.png"; sourceTree = "<group>"; };
-		782A48522AB8CD4300236F60 /* fanmaker-sdk-loading-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-5.png"; sourceTree = "<group>"; };
-		782A48532AB8CD4300236F60 /* fanmaker-sdk-loading-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-4.png"; sourceTree = "<group>"; };
-		782A48542AB8CD4300236F60 /* fanmaker-sdk-loading-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-6.png"; sourceTree = "<group>"; };
-		782A48552AB8CD4300236F60 /* fanmaker-sdk-loading-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-7.png"; sourceTree = "<group>"; };
-		782A48562AB8CD4300236F60 /* fanmaker-sdk-loading-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-3.png"; sourceTree = "<group>"; };
-		782A48572AB8CD4300236F60 /* fanmaker-sdk-loading-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-2.png"; sourceTree = "<group>"; };
-		782A48582AB8CD4300236F60 /* fanmaker-sdk-loading-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-0.png"; sourceTree = "<group>"; };
-		782A48592AB8CD4300236F60 /* fanmaker-sdk-loading-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-1.png"; sourceTree = "<group>"; };
-		782A485A2AB8CD4300236F60 /* fanmaker-sdk-loading-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-22.png"; sourceTree = "<group>"; };
-		782A485B2AB8CD4300236F60 /* fanmaker-sdk-loading-23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-23.png"; sourceTree = "<group>"; };
-		782A485C2AB8CD4300236F60 /* fanmaker-sdk-loading-21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-21.png"; sourceTree = "<group>"; };
-		782A485D2AB8CD4300236F60 /* fanmaker-sdk-loading-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-20.png"; sourceTree = "<group>"; };
-		782A485E2AB8CD4300236F60 /* fanmaker-sdk-loading-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-24.png"; sourceTree = "<group>"; };
-		782A485F2AB8CD4300236F60 /* fanmaker-sdk-loading-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-18.png"; sourceTree = "<group>"; };
-		782A48602AB8CD4300236F60 /* fanmaker-sdk-loading-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-19.png"; sourceTree = "<group>"; };
-		782A48612AB8CD4300236F60 /* fanmaker-sdk-loading-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-25.png"; sourceTree = "<group>"; };
-		782A48622AB8CD4300236F60 /* fanmaker-sdk-loading-27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-27.png"; sourceTree = "<group>"; };
-		782A48632AB8CD4300236F60 /* fanmaker-sdk-loading-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fanmaker-sdk-loading-26.png"; sourceTree = "<group>"; };
-		782A48642AB8CD4300236F60 /* FanMakerSDKWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKWebView.swift; sourceTree = "<group>"; };
-		782A48652AB8CD4300236F60 /* FanMakerSDKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKWebViewController.swift; sourceTree = "<group>"; };
-		782A48662AB8CD4300236F60 /* FanMakerSDKBeaconsManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKBeaconsManagerDelegate.swift; sourceTree = "<group>"; };
-		782A48672AB8CD4300236F60 /* FanMakerSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDK.swift; sourceTree = "<group>"; };
-		782A48692AB8CD4300236F60 /* FanMakerSDKHttpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKHttpResponse.swift; sourceTree = "<group>"; };
-		782A486B2AB8CD4300236F60 /* FanMakerSDKSiteDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKSiteDetails.swift; sourceTree = "<group>"; };
-		782A486C2AB8CD4300236F60 /* FanMakerSDKIdentifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKIdentifiers.swift; sourceTree = "<group>"; };
-		782A486D2AB8CD4300236F60 /* FanMakerSDKBeaconRegion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKBeaconRegion.swift; sourceTree = "<group>"; };
-		782A486E2AB8CD4300236F60 /* FanMakerSDKHttpError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKHttpError.swift; sourceTree = "<group>"; };
-		782A486F2AB8CD4300236F60 /* FanMakerSDKHttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKHttpRequest.swift; sourceTree = "<group>"; };
-		782A48702AB8CD4300236F60 /* FanMakerSDKHttp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FanMakerSDKHttp.swift; sourceTree = "<group>"; };
 		782A489C2AB8D1BE00236F60 /* FanMakerLocationModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanMakerLocationModule.m; sourceTree = "<group>"; };
 		7887C5B52AB8A2CA009DDA45 /* NativeModules-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeModules-Bridging-Header.h"; sourceTree = "<group>"; };
 		78CE22DF2AB9A583009ABD47 /* FanMakerBeaconsModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanMakerBeaconsModule.m; sourceTree = "<group>"; };
@@ -190,7 +104,6 @@
 			children = (
 				782A489F2AB8D9EA00236F60 /* FanMaker */,
 				782A489E2AB8D9C300236F60 /* Samples */,
-				782A48402AB8CD4300236F60 /* Turducken */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -210,96 +123,6 @@
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-NativeModules-NativeModulesTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		782A48402AB8CD4300236F60 /* Turducken */ = {
-			isa = PBXGroup;
-			children = (
-				782A48412AB8CD4300236F60 /* Sources */,
-			);
-			path = Turducken;
-			sourceTree = "<group>";
-		};
-		782A48412AB8CD4300236F60 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				782A48422AB8CD4300236F60 /* FanMaker */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		782A48422AB8CD4300236F60 /* FanMaker */ = {
-			isa = PBXGroup;
-			children = (
-				782A48432AB8CD4300236F60 /* FanMakerSDKBeaconsManager.swift */,
-				782A48442AB8CD4300236F60 /* FanMakerSDKLocationDelegate.swift */,
-				782A48452AB8CD4300236F60 /* Resources */,
-				782A48642AB8CD4300236F60 /* FanMakerSDKWebView.swift */,
-				782A48652AB8CD4300236F60 /* FanMakerSDKWebViewController.swift */,
-				782A48662AB8CD4300236F60 /* FanMakerSDKBeaconsManagerDelegate.swift */,
-				782A48672AB8CD4300236F60 /* FanMakerSDK.swift */,
-				782A48682AB8CD4300236F60 /* Http */,
-			);
-			path = FanMaker;
-			sourceTree = "<group>";
-		};
-		782A48452AB8CD4300236F60 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				782A48462AB8CD4300236F60 /* fanmaker-sdk-loading-17.png */,
-				782A48472AB8CD4300236F60 /* fanmaker-sdk-loading-16.png */,
-				782A48482AB8CD4300236F60 /* fanmaker-sdk-loading-28.png */,
-				782A48492AB8CD4300236F60 /* fanmaker-sdk-loading-14.png */,
-				782A484A2AB8CD4300236F60 /* fanmaker-sdk-loading-15.png */,
-				782A484B2AB8CD4300236F60 /* fanmaker-sdk-loading-29.png */,
-				782A484C2AB8CD4300236F60 /* fanmaker-sdk-loading-11.png */,
-				782A484D2AB8CD4300236F60 /* fanmaker-sdk-loading-10.png */,
-				782A484E2AB8CD4300236F60 /* fanmaker-sdk-loading-12.png */,
-				782A484F2AB8CD4300236F60 /* fanmaker-sdk-loading-13.png */,
-				782A48502AB8CD4300236F60 /* fanmaker-sdk-loading-9.png */,
-				782A48512AB8CD4300236F60 /* fanmaker-sdk-loading-8.png */,
-				782A48522AB8CD4300236F60 /* fanmaker-sdk-loading-5.png */,
-				782A48532AB8CD4300236F60 /* fanmaker-sdk-loading-4.png */,
-				782A48542AB8CD4300236F60 /* fanmaker-sdk-loading-6.png */,
-				782A48552AB8CD4300236F60 /* fanmaker-sdk-loading-7.png */,
-				782A48562AB8CD4300236F60 /* fanmaker-sdk-loading-3.png */,
-				782A48572AB8CD4300236F60 /* fanmaker-sdk-loading-2.png */,
-				782A48582AB8CD4300236F60 /* fanmaker-sdk-loading-0.png */,
-				782A48592AB8CD4300236F60 /* fanmaker-sdk-loading-1.png */,
-				782A485A2AB8CD4300236F60 /* fanmaker-sdk-loading-22.png */,
-				782A485B2AB8CD4300236F60 /* fanmaker-sdk-loading-23.png */,
-				782A485C2AB8CD4300236F60 /* fanmaker-sdk-loading-21.png */,
-				782A485D2AB8CD4300236F60 /* fanmaker-sdk-loading-20.png */,
-				782A485E2AB8CD4300236F60 /* fanmaker-sdk-loading-24.png */,
-				782A485F2AB8CD4300236F60 /* fanmaker-sdk-loading-18.png */,
-				782A48602AB8CD4300236F60 /* fanmaker-sdk-loading-19.png */,
-				782A48612AB8CD4300236F60 /* fanmaker-sdk-loading-25.png */,
-				782A48622AB8CD4300236F60 /* fanmaker-sdk-loading-27.png */,
-				782A48632AB8CD4300236F60 /* fanmaker-sdk-loading-26.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		782A48682AB8CD4300236F60 /* Http */ = {
-			isa = PBXGroup;
-			children = (
-				782A48692AB8CD4300236F60 /* FanMakerSDKHttpResponse.swift */,
-				782A486A2AB8CD4300236F60 /* Responses */,
-				782A486E2AB8CD4300236F60 /* FanMakerSDKHttpError.swift */,
-				782A486F2AB8CD4300236F60 /* FanMakerSDKHttpRequest.swift */,
-				782A48702AB8CD4300236F60 /* FanMakerSDKHttp.swift */,
-			);
-			path = Http;
-			sourceTree = "<group>";
-		};
-		782A486A2AB8CD4300236F60 /* Responses */ = {
-			isa = PBXGroup;
-			children = (
-				782A486B2AB8CD4300236F60 /* FanMakerSDKSiteDetails.swift */,
-				782A486C2AB8CD4300236F60 /* FanMakerSDKIdentifiers.swift */,
-				782A486D2AB8CD4300236F60 /* FanMakerSDKBeaconRegion.swift */,
-			);
-			path = Responses;
 			sourceTree = "<group>";
 		};
 		782A489E2AB8D9C300236F60 /* Samples */ = {
@@ -460,38 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782A487F2AB8CD4300236F60 /* fanmaker-sdk-loading-5.png in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				782A48902AB8CD4300236F60 /* fanmaker-sdk-loading-26.png in Resources */,
-				782A48852AB8CD4300236F60 /* fanmaker-sdk-loading-0.png in Resources */,
-				782A487B2AB8CD4300236F60 /* fanmaker-sdk-loading-12.png in Resources */,
-				782A48812AB8CD4300236F60 /* fanmaker-sdk-loading-6.png in Resources */,
-				782A48822AB8CD4300236F60 /* fanmaker-sdk-loading-7.png in Resources */,
-				782A48752AB8CD4300236F60 /* fanmaker-sdk-loading-28.png in Resources */,
-				782A48772AB8CD4300236F60 /* fanmaker-sdk-loading-15.png in Resources */,
-				782A48832AB8CD4300236F60 /* fanmaker-sdk-loading-3.png in Resources */,
-				782A488E2AB8CD4300236F60 /* fanmaker-sdk-loading-25.png in Resources */,
-				782A48892AB8CD4300236F60 /* fanmaker-sdk-loading-21.png in Resources */,
-				782A48742AB8CD4300236F60 /* fanmaker-sdk-loading-16.png in Resources */,
-				782A487E2AB8CD4300236F60 /* fanmaker-sdk-loading-8.png in Resources */,
-				782A48762AB8CD4300236F60 /* fanmaker-sdk-loading-14.png in Resources */,
-				782A48862AB8CD4300236F60 /* fanmaker-sdk-loading-1.png in Resources */,
-				782A487C2AB8CD4300236F60 /* fanmaker-sdk-loading-13.png in Resources */,
-				782A488B2AB8CD4300236F60 /* fanmaker-sdk-loading-24.png in Resources */,
-				782A487A2AB8CD4300236F60 /* fanmaker-sdk-loading-10.png in Resources */,
-				782A48882AB8CD4300236F60 /* fanmaker-sdk-loading-23.png in Resources */,
-				782A48782AB8CD4300236F60 /* fanmaker-sdk-loading-29.png in Resources */,
-				782A488C2AB8CD4300236F60 /* fanmaker-sdk-loading-18.png in Resources */,
-				782A487D2AB8CD4300236F60 /* fanmaker-sdk-loading-9.png in Resources */,
-				782A48842AB8CD4300236F60 /* fanmaker-sdk-loading-2.png in Resources */,
-				782A488F2AB8CD4300236F60 /* fanmaker-sdk-loading-27.png in Resources */,
-				782A48792AB8CD4300236F60 /* fanmaker-sdk-loading-11.png in Resources */,
-				782A48802AB8CD4300236F60 /* fanmaker-sdk-loading-4.png in Resources */,
-				782A488A2AB8CD4300236F60 /* fanmaker-sdk-loading-20.png in Resources */,
-				782A488D2AB8CD4300236F60 /* fanmaker-sdk-loading-19.png in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				782A48872AB8CD4300236F60 /* fanmaker-sdk-loading-22.png in Resources */,
-				782A48732AB8CD4300236F60 /* fanmaker-sdk-loading-17.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,24 +457,11 @@
 				78E0DFAE2AB72C6000F742E3 /* RCTCalendarModule.m in Sources */,
 				78CE22E22AB9D46A009ABD47 /* FanMakerBeaconsModule.swift in Sources */,
 				782A483B2AB8B1CD00236F60 /* HelloModule.m in Sources */,
-				782A48912AB8CD4300236F60 /* FanMakerSDKWebView.swift in Sources */,
-				782A48962AB8CD4300236F60 /* FanMakerSDKSiteDetails.swift in Sources */,
-				782A48952AB8CD4300236F60 /* FanMakerSDKHttpResponse.swift in Sources */,
-				782A48942AB8CD4300236F60 /* FanMakerSDK.swift in Sources */,
 				78CE22E02AB9A583009ABD47 /* FanMakerBeaconsModule.m in Sources */,
 				782A48392AB8B19F00236F60 /* HelloModule.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				782A48722AB8CD4300236F60 /* FanMakerSDKLocationDelegate.swift in Sources */,
-				782A489B2AB8CD4300236F60 /* FanMakerSDKHttp.swift in Sources */,
 				782A483F2AB8CB6C00236F60 /* FanMakerLocationModule.swift in Sources */,
-				782A489A2AB8CD4300236F60 /* FanMakerSDKHttpRequest.swift in Sources */,
-				782A48982AB8CD4300236F60 /* FanMakerSDKBeaconRegion.swift in Sources */,
-				782A48972AB8CD4300236F60 /* FanMakerSDKIdentifiers.swift in Sources */,
-				782A48712AB8CD4300236F60 /* FanMakerSDKBeaconsManager.swift in Sources */,
-				782A48932AB8CD4300236F60 /* FanMakerSDKBeaconsManagerDelegate.swift in Sources */,
-				782A48992AB8CD4300236F60 /* FanMakerSDKHttpError.swift in Sources */,
-				782A48922AB8CD4300236F60 /* FanMakerSDKWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
