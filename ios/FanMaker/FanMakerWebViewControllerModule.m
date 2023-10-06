@@ -13,6 +13,4 @@
 
 RCT_EXTERN_METHOD(showFanMakerUI)
 
-RCT_EXTERN_METHOD(hideFanMakerUI)
-
 @end

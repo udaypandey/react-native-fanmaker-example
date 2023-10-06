@@ -20,8 +20,6 @@ class FanMakerWebViewControllerModule: NSObject {
   
   @objc
   public func showFanMakerUI() {
-//    FanMakerSDK.initialize(apiKey: "cd5424f8e4438b19a5238b53d813cf5f35e21851b91eb4662223057229060023")
-
     DispatchQueue.main.async { [weak self] in
       guard let self else { return }
       guard let appDelegate = UIApplication.shared.delegate,
@@ -29,13 +27,45 @@ class FanMakerWebViewControllerModule: NSObject {
             let rootViewController = window?.rootViewController else { return }
       
       let fanMakerViewController = FanMakerSDKWebViewController()
-      self._viewController = fanMakerViewController
-      rootViewController.present(fanMakerViewController, animated: true)
+      //            let fanMakerViewController = UIViewController()
+      //      fanMakerViewController.view.backgroundColor = .yellow
+//      fanMakerViewController.edgesForExtendedLayout = [.bottom]
+      fanMakerViewController.edgesForExtendedLayout = []
+
+      fanMakerViewController.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Close", style: .plain, target: self, action: #selector(self.hideFanMakerUI))
+      fanMakerViewController.title = "FanMaker"
+      
+      
+      let navVC = UINavigationController(rootViewController: fanMakerViewController)
+      
+//      let appearance = UINavigationBarAppearance()
+//      appearance.configureWithOpaqueBackground()
+//      UINavigationBar.appearance().standardAppearance = appearance
+//      UINavigationBar.appearance().scrollEdgeAppearance = appearance
+////      UINavigationBar.appearance().backgroundColor = .blue
+//      navVC.navigationBar.barTintColor = .brown
+      
+      
+//      UINavigationBar.appearance().backgroundColor = .green // backgorund color with gradient
+//      UINavigationBar.appearance().barTintColor = .green  // solid color
+//      UINavigationBar.appearance().isTranslucent = false
+
+      //      fanMakerViewController.preferredStatusBarStyle = .lightContent
+
+      navVC.navigationBar.isTranslucent = false
+//      self.navigationController?.navigationBar.isTranslucent = false
+
+      navVC.view.backgroundColor = .cyan
+//      navVC.view.backgroundColor = .white
+//      fanMakerViewController.
+      navVC.modalPresentationStyle = .fullScreen
+      self._viewController = navVC
+      rootViewController.present(navVC, animated: true)
     }
   }
   
   @objc
-  public func hideFanMakerUI() {
+  private func hideFanMakerUI() {
     DispatchQueue.main.async { [weak self] in
       guard let self else { return }
       guard let vc = self._viewController else { return }
